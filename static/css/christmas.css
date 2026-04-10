@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #B71C1C; /* Christmas Red */
+    --secondary-color: #2E7D32; /* Tree Green */
+    --bg-color: #F5F5F5;      /* Snow White */
+}
+
+.hero-banner {
+    background: url('/static/images/christmas_banner.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+}

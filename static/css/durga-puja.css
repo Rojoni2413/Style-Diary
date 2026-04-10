@@ -1,0 +1,53 @@
+:root {
+    --primary-color: #800000; /* Deep Maroon */
+    --accent-color: #FFD700;  /* Golden Yellow */
+    --bg-color: #FFFDE7;      /* Light Creamy Yellow */
+    --text-dark: #4E342E;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-dark);
+}
+
+.hero-banner {
+    background: linear-gradient(rgba(128,0,0,0.6), rgba(128,0,0,0.6)), url('/static/images/puja_banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: var(--accent-color);
+    text-align: center;
+    padding: 120px 20px;
+    border-bottom: 5px dashed var(--accent-color);
+}
+
+.hero-banner h1 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.btn-shop {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    border: 2px solid var(--accent-color);
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.product-card {
+    background: #fff;
+    border: 1px solid #ffe082;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.product-card:hover {
+    box-shadow: 0 10px 20px rgba(128,0,0,0.2);
+}
+
+.price-tag {
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.2rem;
+}

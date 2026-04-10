@@ -1,0 +1,11 @@
+:root {
+    --primary-color: #333;
+    --accent-color: #007BFF;
+    --bg-color: #ffffff;
+}
+
+.hero-banner {
+    background-color: #eee;
+    color: #333;
+    padding: 50px;
+}

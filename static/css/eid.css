@@ -1,0 +1,20 @@
+:root {
+    --primary-color: #1B5E20; /* Islamic Green */
+    --accent-color: #FFD700;  /* Gold */
+    --bg-color: #F1F8E9;      /* Light Greenish */
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.hero-banner {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/static/images/eid_banner.jpg');
+    background-size: cover;
+    color: var(--accent-color);
+    padding: 100px 20px;
+}
+
+.product-card {
+    border: 1px solid var(--accent-color);
+}
