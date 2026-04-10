@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #006A4E; /* Bangladesh Flag Green */
+    --accent-color: #F42A41;  /* Bangladesh Flag Red */
+    --bg-color: #E8F5E9;      /* Very Light Green */
+    --text-light: #FFFFFF;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #333;
+}
+
+.hero-banner {
+    background: linear-gradient(rgba(0,106,78,0.7), rgba(0,106,78,0.7)), url('/static/images/bijoy_banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: var(--text-light);
+    text-align: center;
+    padding: 120px 20px;
+    border-bottom: 8px solid var(--accent-color);
+}
+
+.btn-shop {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-shop:hover {
+    background-color: #d11f33;
+    transform: scale(1.05);
+}
+
+.product-card {
+    border-top: 4px solid var(--primary-color);
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
